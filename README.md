@@ -1,7 +1,7 @@
 # Bus station APP to enhance Angular and Flask knowledge  
 
 
-To start the app:
+## To start the app:
 
 For back-end, in folder busStation-BE, type in command line: python app.py
 

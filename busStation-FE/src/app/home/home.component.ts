@@ -7,9 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  images: string[] = ([
+    "../../assets/photos/winter.jpg",
+    "../../assets/photos/night.jpg",
+    "../../assets/photos/summer.jpg",
+    "../../assets/photos/autumn.jpg"
+  ]);
+  index: number = 0;
+
+  constructor() {} 
+  ngOnInit() {
+  }
+
+  slideImg() { 
+    this.images.forEach(element => {
+    let index = this.images.indexOf(element);
+    index++;
+    if(index>=this.images.length) {
+      index=0;   
+    } 
+
+    });  
+} 
   
+ }
 
-  ngOnInit() {  }
-
-}

@@ -1,11 +1,15 @@
-# Bus station APP to enhance Angular and Flask knowledge  
+# Bus station APP to enhance Angular and NodeJS knowledge  
 
 
 ## To start the app:
 
-For back-end, in folder busStation-BE, type in command line: python app.py
+For back-end, in folder busStation-BE, type in command line: 
+    1. npm install 
+    2. ng serve
 
-For front-end, in folder busStation-FE, type in command line: ng serve
+For front-end, in folder busStation-FE, type in command line: 
+    1. npm install
+    2. ng serve
 
 Created on: Sept, 2018
 
